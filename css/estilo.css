@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+body {
+    background-color: rgb(253, 231, 249);
+}
+
+
+h1 {
+    color: palevioletred;
+    font-family: "Belanosima", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    height: 40px;
+    width: 40px;
+}
+
+
+td {
+    text-align: center;
+    width: 50px;
+}
+
+
+.pais {
+    text-align: left;
+    width: 150px;
+
+}
+
+
+.medalhas {
+    height: 20px;
+    width: 20px;
+}
+
+
+td:nth-child(1){
+    width: 25px;
+}
+
+
+td img:hover{
+    transform: scale(2);
+}
+
+.linhas:hover {
+    background-color: rgb(212, 176, 245);
+    transition: 0.3s;
+}
+
+table{
+    color: rgb(91, 19, 139);
+    background-color: rgb(246, 224, 255);
+}
